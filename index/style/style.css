@@ -30,14 +30,15 @@ nav ul {
     display: flex;
     text-align: center;
     gap: 0.7rem;
-   
+
 }
 
-nav{
+nav {
     margin-right: 6rem;
-   
+
 }
-header .logo{
+
+header .logo-1 {
     margin-left: 5rem;
 }
 
@@ -58,6 +59,7 @@ nav ul li a {
     font-size: 20px;
     line-height: 29px;
     padding: 12px 32px;
+  
 }
 
 nav ul li a:hover {
@@ -75,8 +77,84 @@ nav ul li .button {
     cursor: pointer;
 }
 
+/* =====================================================contact us page css starts herfe============================ */
+
+.container-11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FF3465;
+}
+
+.form-container-1 {}
+
+.container-11 form {
+    gap: 1rem;
+}
+
+.form-container-1 {
+    width: 50%;
+    padding: 40px;
+
+}
+
+.form-container-1 h2 {
+    text-align: center;
+}
+
+.form-container-1 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container-1 input,
+.form-container textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container-1 button {
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.address-container {
+    width: 50%;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.address-container h2 {
+    text-align: center;
+}
+
+.address-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.address-container li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
 
 /*---------------------------------------------- footer section  */
+
 footer {
     background-color: #B1056D;
     padding: 2rem;
@@ -91,10 +169,18 @@ footer {
 }
 
 .footer-column h4 {
-
+    margin-bottom: 20px;
     color: white;
     font-weight: 700;
+    font-size: 25px;
 }
+
+.footer-column p {
+    padding-bottom: 3px;
+    font-weight: 100;
+
+}
+
 
 .footer-column ul {
     list-style: none;
@@ -102,12 +188,14 @@ footer {
 }
 
 .footer-column ul li {
-    margin-bottom: 5px;
+    margin-bottom: 23px;
+
 }
 
 .footer-column ul li a {
     text-decoration: none;
-    color: #333;
+    color: #f6f6f6;
+    font-size: 20px;
 }
 
 .footer-column form {
@@ -116,16 +204,21 @@ footer {
 
 .footer-column input[type="email"] {
     width: 100%;
-    padding: 5px;
+    padding: 7px;
     margin-bottom: 5px;
+
 }
 
 .footer-column button {
-    background-color: #333;
+    background: none;
     color: #fff;
-    border: none;
-    padding: 5px 10px;
+    border: 2px solid white;
+    padding: 10px 26px;
     cursor: pointer;
+    width: 100%;
+    margin-top: 22px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .footer-img {
@@ -143,7 +236,46 @@ footer {
     margin-bottom: 17px;
 }
 
-.footer-column .location {
-    margin-bottom: 10px;
+.footer-column .contact-info {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-top: 24px;
+}
 
+.footer-column img {
+    margin-right: 10px;
+}
+
+.footer-column .follow-us {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer-column .follow-us a img {
+    width: 30px;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+}
+
+.email-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.email-link img {
+    margin-right: 5px;
+    /* Adjust as needed */
 }

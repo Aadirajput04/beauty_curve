@@ -6,7 +6,7 @@
 
 
 <header>
-    <div class="logo">
+    <div class="logo-1">
       <img src="./img/logo.svg" alt="Logo">
     </div>
     <nav>
