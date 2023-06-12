@@ -67,7 +67,7 @@
             <span>customercare@beautyncurves.com</span>
         </a>
 
-        <a href="tel:1800-572-3579"> Tel: 1800-572-3579</a>
+        <a href="tel:1800-572-3579"> TOLL FREE: 1800-572-3579</a>
     </div>
 
 
