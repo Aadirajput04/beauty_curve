@@ -10,6 +10,7 @@ marquee {
     color: #B1056D;
 }
 
+
 marquee span {
     margin-left: 20rem;
 }
@@ -28,9 +29,18 @@ nav ul {
     list-style: none;
     display: flex;
     text-align: center;
-    gap: 1rem;
-    margin-right: 4rem;
+    gap: 0.7rem;
+   
 }
+
+nav{
+    margin-right: 6rem;
+   
+}
+header .logo{
+    margin-left: 5rem;
+}
+
 
 /* 
 nav ul li {
