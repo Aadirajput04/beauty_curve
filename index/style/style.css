@@ -19,10 +19,17 @@ footer {
   }
 
   .footer-column h4 {
-
+    margin-bottom: 20px;
     color: white;
     font-weight: 700;
+    font-size: 25px;
   }
+  .footer-column p{
+    padding-bottom: 3px;
+    font-weight: 100;
+
+  }
+
 
   .footer-column ul {
     list-style: none;
@@ -30,12 +37,14 @@ footer {
   }
 
   .footer-column ul li {
-    margin-bottom: 5px;
+    margin-bottom: 23px;
+
   }
 
   .footer-column ul li a {
     text-decoration: none;
-    color: #333;
+    color: #f6f6f6;
+    font-size: 20px;
   }
 
   .footer-column form {
@@ -44,16 +53,21 @@ footer {
 
   .footer-column input[type="email"] {
     width: 100%;
-    padding: 5px;
+    padding: 7px;
     margin-bottom: 5px;
+
   }
 
   .footer-column button {
-    background-color: #333;
+  background: none;
     color: #fff;
-    border: none;
-    padding: 5px 10px;
+    border: 2px solid white;
+    padding: 10px 26px;
     cursor: pointer;
+    width: 100%;
+    margin-top: 22px;
+    font-size: 14px;
+    font-weight: 600;
   }
   .footer-img{
     padding-top:1.9rem;
@@ -67,7 +81,41 @@ footer {
 .footer-logo-parent {
 	margin-bottom: 17px;
 }
-.footer-column .location{
-    margin-bottom: 10px;
+.footer-column .contact-info {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  margin-top: 24px;
+}
 
+.footer-column img {
+  margin-right: 10px;
+}
+.footer-column .follow-us{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.footer-column .follow-us a img{
+  width: 30px;
+}
+.footer-column a{
+ color: white;
+ text-decoration: none;
+ font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+}
+.email-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+  margin-bottom:22px;
+}
+
+.email-link img {
+  margin-right: 5px; /* Adjust as needed */
 }
