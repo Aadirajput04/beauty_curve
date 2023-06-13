@@ -25,8 +25,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-background-color: transparent;
-/* position: sticky;
+    background-color: transparent;
+    /* position: sticky;
 top: 0; */
     /* background-color: #f1f1f1; */
 }
@@ -150,7 +150,8 @@ nav ul li .button {
     transition: transform 0.3s ease;
     /* width: 130px; */
 }
-.form-container-1 button:hover{
+
+.form-container-1 button:hover {
     transform: translatey(-4px);
 }
 
@@ -313,20 +314,58 @@ nav ul li .button {
 
 
 
-.main-ab{
-    background-image:  url("/index/img/bhimg.svg");
-    background-size: cover;
+
+.main-ab {
+    background-image: url("../img/bhimg.svg");
+
     background-repeat: no-repeat;
-    background-position:fixed ;
-    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    
+}
+
+.main-ab .main-abc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-ab .main-box{
+text-align: center;
+background-color: #ccc  ;
+padding: 2rem;
+
+}
+
+
+.main-ab h1 {
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 85px;
+    color: #741349;
+}
+
+
+.main-ab p{
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: black;
+
 }
 
 
 
 
-
-
-/*---------------------------------------------- footer section  */
+/*---------------------------------------------- footer section=====================  */
 
 footer {
     background-color: #B1056D;

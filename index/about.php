@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,24 @@
     <link rel="stylesheet" href="style/style.css">
     <title>about</title>
 </head>
+
 <body>
 
+    <section class="main-ab">
+        <div class="mainabc">
 
-    <?php
+
+            <?php
 
     include "header.php";
 
 
     ?>
-
-    <section class="main-ab">
-<h1>Meet Our Team of Experts</h1>
-<p>Personalized Care, Exceptional Results   </p>
+            <div class="main-box">
+                <h1>Meet Our Team of Experts</h1>
+                <p>Personalized Care, Exceptional Results </p>
+            </div>
+        </div>
     </section>
 
 
@@ -34,6 +40,7 @@
 
 
 
-    
+
 </body>
+
 </html>
