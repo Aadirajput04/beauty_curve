@@ -21,7 +21,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color: #f1f1f1;
+background-color: transparent;
+/* position: sticky;
+top: 0; */
+    /* background-color: #f1f1f1; */
 }
 
 
@@ -302,9 +305,17 @@ nav ul li .button {
     cursor: pointer;
 }
 
+/* ============================================================about page css starts here============================== */
 
 
 
+.main-ab{
+    background-image:  url("/index/img/bhimg.svg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position:fixed ;
+    background-attachment: fixed; 
+}
 
 
 

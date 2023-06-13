@@ -11,11 +11,11 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">services </a></li>
-        <li><a href="#">contact us</a></li>
-        <li><a class="button" href="#">Book apointment</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services </a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a class="button" href="#">Book Apointment</a></li>
         
       </ul>
     </nav>
