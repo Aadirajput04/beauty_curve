@@ -43,12 +43,6 @@ header .logo-1 {
 }
 
 
-/* 
-nav ul li {
-    margin-right: 10px;
-
-
-} */
 
 nav ul li a {
     text-decoration: none;
@@ -87,7 +81,7 @@ nav ul li .button {
     background-color: #FF3465;
 }
 
-.form-container-1 {}
+
 
 .container-11 form {
     gap: 1rem;
@@ -144,6 +138,10 @@ nav ul li .button {
     margin-bottom: 10px;
 }
 
+
+.address-container .soc-links{
+    align-items: center;
+}
 
 
 

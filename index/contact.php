@@ -38,13 +38,19 @@
         </form>
     </div>
     <div class="address-container">
-        <h2>Addresses</h2>
+        <h2>Reach Us:</h2>
         <ul>
-            <li>Address 1</li>
-            <li>Address 2</li>
-            <li>Address 3</li>
-            <li>Address 4</li>
-            <li>Address 5</li>
+            <li>VESU : <br>108-109-110 SNS Atria - A, Rundh,  Vesu,Surat- <br> 394518, Gujarat, India</li>
+            <li>ADAJAN : <br>4, Premjinagar Society-1, Near Sardar Bridge <br> Circle, Opp. Muktanand Complex, Adajan <br> Surat-395009, Gujarat, India</li>
+            <li>CHAUTAPUL : <br>1st Floor, Sahebji Shelter,Chautapul,Surat- <br> 395003, Gujarat, India</li>
+            <li><img src="./img/Phone.svg" alt="">1800-572-3579 , +91 9377 684422</li>
+            <li><img src="./img/Gmail.svg" alt="">customercare@beautyncurves.com</li>
         </ul>
+        <div class="soc-links">
+            <img src="./img/Instagram.svg" alt="">
+            <img src="./img/Facebook.svg" alt="">
+            <img src="./img/linked-in.svg" alt="">
+            <img src="./img/twitter.svg" alt="">
+        </div>
     </div>
 </div>
