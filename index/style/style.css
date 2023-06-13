@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ==================================header section============================================ */
 
 marquee {
@@ -53,7 +57,7 @@ nav ul li a {
     font-size: 20px;
     line-height: 29px;
     padding: 12px 32px;
-  
+
 }
 
 nav ul li a:hover {
@@ -139,13 +143,13 @@ nav ul li .button {
 }
 
 
-.address-container .soc-links{
+.address-container .soc-links {
     align-items: center;
 }
 
 
 
-
+/* =====================================services page start pawan */
 
 
 
@@ -277,3 +281,202 @@ footer {
     margin-right: 5px;
     /* Adjust as needed */
 }
+
+
+/* service page start here */
+.ServiceLable {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background-color: #fbb1de;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    z-index: 100;
+
+
+
+
+}
+
+.ServiceLable a {
+    text-decoration: none;
+    color: #741349;
+
+
+}
+.ServiceLable a:hover{
+ transform: scale(1.1);
+
+ transition: transform 0.4s ease-in-out;
+}
+
+
+.Service-hero {
+    display: flex;
+    width: 100%;
+    height: 137vh
+}
+
+.Service-hero-left,
+.Service-hero-right {
+
+    width: 50%;
+}
+
+.Service-hero-left {
+    background-image: url(../img/servicehero.svg);
+    background-repeat: no-repeat;
+}
+
+.Service-hero-right {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.Service-hero-right h1 {
+    color: #741349;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 128px;
+}
+
+.service-main-container {
+    display: flex;
+
+}
+.Service-main{
+    margin-bottom: 10PX;
+}
+
+.service-left {
+    width: 50%;
+    background-color: #741349;
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+}
+
+.service-left h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #F7EFF3;
+    text-align: center;
+
+}
+
+.service-left p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 2rem;
+    color: #F7F7F7;
+}
+
+.service-left a {
+    margin-top: 2rem;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 18px;
+    border-radius: 15px;
+    border: 1px solid #F7F7F7;
+    padding: 12px 16px;
+    text-decoration: none;
+    align-self: center;
+    color: #741349;
+    background: #F7EFF3;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.service-left a:hover {
+    color: white;
+    background-color: #741349;
+    transition-delay: 0.1s;
+}
+.service-left2 a:hover {
+    color:  #741349;
+    background-color: white;
+    transition-delay: 0.1s;
+    border: 1px solid #741349;
+}
+
+.service-left2 {
+    background-color: #F7EFF3;
+}
+
+.service-left2 a {
+    background-color: #741349;
+    color: #ffff;
+    font-weight: 100;
+
+}
+
+
+
+
+.service-right {
+    width: 50%;
+    height: 476px;
+    overflow: hidden;
+
+}
+
+.slideshow-container {
+    display: flex;
+    animation: slideShow 10s infinite;
+}
+
+.slide {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+@keyframes slideShow {
+    0% {
+        transform: translateX(0);
+    }
+
+    33.33% {
+        transform: translateX(-100%);
+    }
+
+    66.66% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+
+.Service-hero-container {
+    scroll-behavior: smooth;
+}
+
+.Service-hero-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.Service-hero-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.Service-hero-container::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+
+/*
+  .service-left {
+    margin-top: 60px;
+  } */
