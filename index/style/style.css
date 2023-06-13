@@ -25,7 +25,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color: #f1f1f1;
+background-color: transparent;
+/* position: sticky;
+top: 0; */
+    /* background-color: #f1f1f1; */
 }
 
 
@@ -81,29 +84,46 @@ nav ul li .button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #FF3465;
+    /* height: 100vh; */
+    background-color: #f1f1f1;
+    /* padding-top: 3rem; */
 }
 
+.container-11 .box-11 {
+    background-color: #FF3465;
 
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 64px;
+}
 
 .container-11 form {
     gap: 1rem;
 }
 
 .form-container-1 {
-    width: 50%;
-    padding: 40px;
+    width: 40%;
+    padding: 100px;
+
 
 }
 
 .form-container-1 h2 {
-    text-align: center;
+    text-align: left;
+    padding-bottom: 2rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 32px;
 }
 
 .form-container-1 form {
     display: flex;
     flex-direction: column;
+
 }
 
 .form-container-1 input,
@@ -114,42 +134,193 @@ nav ul li .button {
     border-radius: 4px;
 }
 
+.form-container-1 .but01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .form-container-1 button {
     padding: 10px 20px;
-    background-color: #337ab7;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: transform 0.3s ease;
+    /* width: 130px; */
+}
+.form-container-1 button:hover{
+    transform: translatey(-4px);
 }
 
 .address-container {
-    width: 50%;
-    padding: 20px;
-    background-color: #f9f9f9;
+    /* width: 50%; */
+    padding: 35px;
+    margin-right: 6rem;
+    background-color:
+        #751721;
+    border-radius: 32px;
+
 }
 
 .address-container h2 {
-    text-align: center;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 64px;
+
+    color: #000000;
 }
 
 .address-container ul {
     list-style: none;
     padding: 0;
+    gap: 3rem;
+
 }
 
 .address-container li {
     margin-bottom: 10px;
+    display: flex;
+    gap: 0.5rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 1rem;
+
+    color: #FFFFFF;
 }
 
 
-.address-container .soc-links {
+.address-container .social-media {
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.head-text {
+    text-align: center;
+    padding: 3rem;
+    background-color: #f1f1f1;
+}
+
+.head-text h1 {
+    color: #741349;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+    padding: 4rem;
+}
+
+
+
+.container-99 {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+
+    margin-left: 5rem;
+    width: 100%;
+    border-radius: 32px 0px 0px 32px;
+    padding-bottom: 2rem;
+    background-color: #f1f1f1;
+
+}
+
+.left-side {
+    display: flex;
+    /* align-items: left; */
+    flex-direction: column;
+    padding: 3rem;
+    width: 40%;
+    background-color: #B1056D;
+    gap: 1rem;
+    color: #fff;
+    border-radius: 32px 0 0 32px;
+}
+
+.right-side {
+    width: 60%;
+
+}
+
+.right-side .maps {
+    background-color: #ccc;
+    width: 80%;
+    height: 314px;
+    overflow: hidden;
+}
+
+.left-side h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.left-side p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+/* .left-side input[type="email"] {
+    padding: 0.8rem;
+    margin-right: 2rem;
+    border-radius: 5px;
+    border: none;
+
+} */
+
+.email-container {
+    display: flex;
     align-items: center;
 }
 
+.email-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.email-button {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* ============================================================about page css starts here============================== */
 
 
-/* =====================================services page start pawan */
+
+.main-ab{
+    background-image:  url("/index/img/bhimg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:fixed ;
+    background-attachment: fixed;
+}
+
 
 
 
@@ -164,6 +335,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 
 .footer-column {
     flex-basis: 25%;
