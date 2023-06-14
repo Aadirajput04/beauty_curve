@@ -11,34 +11,25 @@
 
 <body>
 
-    <section class="main-ab">
-        <div class="mainabc">
 
-
-            <?php
+    <?php
 
     include "header.php";
 
 
     ?>
-            <div class="main-box">
+      
+
+
+    <section class="main-ab">
+        <div class="main-abc">
+
+      <div class="main-box">
                 <h1>Meet Our Team of Experts</h1>
                 <p>Personalized Care, Exceptional Results </p>
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>

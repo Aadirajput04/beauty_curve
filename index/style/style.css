@@ -11,7 +11,9 @@ html {
 /* ==================================header section============================================ */
 
 marquee {
-    color: #B1056D;
+    color: #741349;
+    /* position: sticky;
+    top: 0; */
 }
 
 
@@ -27,7 +29,7 @@ header {
     padding: 15px;
     background-color: transparent;
     /* position: sticky;
-top: 0; */
+    top: 0; */
     /* background-color: #f1f1f1; */
 }
 
@@ -36,17 +38,18 @@ nav ul {
     list-style: none;
     display: flex;
     text-align: center;
-    gap: 0.7rem;
+    /* gap: 0.7rem; */
 
 }
 
 nav {
-    margin-right: 6rem;
+    margin-right: 5rem;
 
 }
 
 header .logo-1 {
     margin-left: 5rem;
+    /* position: initial; */
 }
 
 
@@ -64,18 +67,20 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #741349;
+    background-color: #741349 !important;
     color: white;
     border-radius: 32px;
+    position: ;
 }
 
 nav ul li .button {
-    padding: 12px 32px;
+    padding: 12px 28px;
     background-color: #741349;
     color: white;
     border: none;
     border-radius: 2rem;
     cursor: pointer;
+    margin-left: 4px;
 }
 
 /* =====================================================contact us page css starts herfe============================ */
@@ -90,7 +95,7 @@ nav ul li .button {
 }
 
 .container-11 .box-11 {
-    background-color: #FF3465;
+    background-color: #741349;
 
     display: flex;
     width: 80%;
@@ -245,7 +250,7 @@ nav ul li .button {
     flex-direction: column;
     padding: 3rem;
     width: 40%;
-    background-color: #B1056D;
+    background-color: #741349;
     gap: 1rem;
     color: #fff;
     border-radius: 32px 0 0 32px;
@@ -314,28 +319,29 @@ nav ul li .button {
 
 
 
-
 .main-ab {
     background-image: url("../img/bhimg.svg");
 
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    height: 80vh;
+    height: 100vh;
+    margin-top: -10rem;
     flex-direction: column;
 
+
 }
 
-.main-ab .main-abc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
-.main-ab .main-box {
-    text-align: center;
+.main-box {
     background-color: #ccc;
-    padding: 2rem;
+    text-align: center;
+
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
 
 }
 
@@ -368,7 +374,7 @@ nav ul li .button {
 /*---------------------------------------------- footer section=====================  */
 
 footer {
-    background-color: #B1056D;
+    background-color: #741349;
     padding: 2rem;
     display: flex;
     flex-wrap: wrap;
@@ -500,7 +506,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px;
-    background-color: #fbb1de;
+    background-color: #ddc5cb;
     position: sticky;
     top: 0;
     height: 50px;
@@ -528,7 +534,8 @@ footer {
 .Service-hero {
     display: flex;
     width: 100%;
-    height: 137vh
+    height: 137vh;
+    margin-top: -10rem;
 }
 
 .Service-hero-left,
@@ -540,6 +547,8 @@ footer {
 .Service-hero-left {
     background-image: url(../img/servicehero.svg);
     background-repeat: no-repeat;
+    z-index: -1;
+
 }
 
 .Service-hero-right {
@@ -693,6 +702,7 @@ footer {
 /*
   .service-left {
     margin-top: 60px;
+
   }= */
 
 
@@ -803,5 +813,6 @@ footer {
 
     transform: scale(1.1)
 }
+
 
 
