@@ -823,12 +823,12 @@ footer {
 
 
 
-.our-services {
+.our-services,.service-dec {
     text-align: center;
     padding: 48px 64px;
 }
 
-.our-services hr {
+.our-services hr ,.service-dec hr{
     width: 17.75rem;
     margin: auto;
     border: 2px solid #7A235B;
@@ -836,7 +836,7 @@ footer {
 }
 
 
-.our-services h1 {
+.our-services h1 ,.service-dec h1{
     padding-bottom: 0.8rem;
     font-family: 'Playfair Display';
     font-style: normal;
@@ -913,3 +913,47 @@ line-height: 29px;
     color: #b1056d;
     border: 2px solid #b1056d;
 }
+.service-dec{
+    padding: 100px;
+}
+.service-dec-main{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+.service-dec{
+
+background-color: #741349;
+width: 50%;
+border-radius: 15px;
+
+
+}
+.service-dec h1{
+    color: white;
+
+
+}
+.service-dec hr{
+    border: 2px solid white;
+}
+.service-decp p{
+    margin-top: 48px;
+    text-align: left;
+    color: white;
+    padding: 1rem;
+
+}
+
+.our-services-dec{
+    margin-bottom: 100px;
+
+}
+/* #serviceimage2{
+    position: relative;
+     top: 20px;
+
+} */

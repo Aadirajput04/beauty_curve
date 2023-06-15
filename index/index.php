@@ -94,7 +94,7 @@
 
                         </div>
                         <div class="our-services-bottom">
-                            <img src="./img/ourserevice3.svg" alt=""class="serviceimage3">
+                            <img src="./img/ourserevice3.svg" alt="" class="serviceimage3">
                         </div>
 
 
@@ -108,9 +108,25 @@
 
         </section>
         <section class="our-services-dec">
+            <div class="service-dec-main">
             <div class="service-dec">
+                <h1>Our Services</h1>
+                <hr>
+                <div class="service-decp">
+                <p>With 64 years of experience in the skin clinic industry and 56 years specializing in Laser
+                    Cosmetology and Medical Aesthetics, we offer a safe and effective alternative to plastic cosmetic
+                    surgeries. </p>
+                <p>Our portfolio boasts 100% successful, result-oriented treatments, designed to seamlessly integrate
+                    into your lifestyle. </p>
+                    </div>
+
+
 
             </div>
+            </div>
+            <!-- <img src="./img/ourserevice1.svg" alt="" id="serviceimage1">
+            <img src="./img/ourserevice3.svg" alt="" id="serviceimage2"> -->
+
         </section>
     </div>
 
