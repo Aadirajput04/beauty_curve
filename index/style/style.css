@@ -847,10 +847,10 @@ footer {
 }
 
 .our-service-container {
-    padding: 4.03rem 7.87rem;
+    /* padding: 4.03rem 7.87rem; */
     padding: 64px 52px;
     width: 30%;
-    border-radius: 0px 0px 15px 0px;
+
 }
 
 .our-services-up {
@@ -866,11 +866,33 @@ footer {
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-
+    padding-bottom: 12px;
     color: #F5EFF3;
 
+}
+.our-service-container p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #F7EFF3;
 }
 
 .our-services-bottom img {
     width: 100%;
+    /* border-radius: 0 0 0 32px; */
+}
+.our-service-main-container{
+    display: flex;
+
+}
+.our-services-bottom .serviceimage2{
+    border-radius: 0 32px 0 0 !important;
+    margin-bottom: -4.5px;
+}
+.our-services-bottom .serviceimage1,.serviceimage3{
+    border-radius: 0 0 0 32px  !important;
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link rel="stylesheet" href=" style/style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
 
@@ -56,18 +56,53 @@
         <section class="our-services">
             <h1>Our Services</h1>
             <hr>
-            <div class="our-service-container">
-                <div class="our-services-1">
-                    <div class="our-services-up">
-                        <h2>Acne Scar Treatment</h2>
-                        <p>Regain your skin's confidence with our transformative acne scar treatment solutions</p>
+            <div class="our-service-main-container">
+                <div class="our-service-container">
+                    <div class="our-services-1">
+                        <div class="our-services-up">
+                            <h2>Acne Scar Treatment</h2>
+                            <p>Regain your skin's confidence with our transformative acne scar treatment solutions</p>
+
+                        </div>
+                        <div class="our-services-bottom">
+                            <img src="./img/ourserevice1.svg" alt="" class="serviceimage1">
+                        </div>
+
 
                     </div>
-                    <div class="our-services-bottom">
-                        <img src="./img/ourserevice1.svg" alt="">
+                </div>
+                <div class="our-service-container">
+                    <div class="our-services-1">
+                        <div class="our-services-bottom">
+                            <img src="./img/ourserevice1.svg" alt="" class="serviceimage2">
+                        </div>
+                        <div class="our-services-up">
+                            <h2>Acne Scar Treatment</h2>
+                            <p>Regain your skin's confidence with our transformative acne scar treatment solutions</p>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="our-service-container">
+                    <div class="our-services-1">
+                        <div class="our-services-up">
+                            <h2>Acne Scar Treatment</h2>
+                            <p>Regain your skin's confidence with our transformative acne scar treatment solutions</p>
+
+                        </div>
+                        <div class="our-services-bottom">
+                            <img src="./img/ourserevice1.svg" alt=""class="serviceimage3">
+                        </div>
+
+
                     </div>
                 </div>
             </div>
+
+
         </section>
     </div>
 
