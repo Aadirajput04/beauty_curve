@@ -70,7 +70,7 @@ nav ul li a:hover {
     background-color: #741349 !important;
     color: white;
     border-radius: 32px;
-    
+
 }
 
 nav ul li .button {
@@ -796,23 +796,78 @@ footer {
     line-height: 59px;
     color: #FFFFFF;
 }
-.view{
+
+.view {
     padding: 44px 100px;
     display: flex;
     align-items: center;
-    gap: 41rem ;
+    gap: 41rem;
     cursor: pointer;
 
 }
-.arrow-img{
+
+.arrow-img {
     width: 38px;
     position: relative;
     top: 5px;
 }
-.view-more:hover{
+
+.view-more:hover {
 
     transform: scale(1.1)
 }
 
 
 
+
+.our-services {
+    text-align: center;
+    padding: 48px 64px;
+}
+
+.our-services hr {
+    width: 17.75rem;
+    margin: auto;
+    border: 2px solid #7A235B;
+
+}
+
+
+.our-services h1 {
+    padding-bottom: 0.8rem;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #7A235B;
+}
+
+.our-service-container {
+    padding: 4.03rem 7.87rem;
+    padding: 64px 52px;
+    width: 30%;
+    border-radius: 0px 0px 15px 0px;
+}
+
+.our-services-up {
+    background: #B1056D;
+
+    padding: 64px 52px;
+}
+
+.our-services-up h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #F5EFF3;
+
+}
+
+.our-services-bottom img {
+    width: 100%;
+}

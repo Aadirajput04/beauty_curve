@@ -52,6 +52,23 @@
             </div>
 
         </div>
+
+        <section class="our-services">
+            <h1>Our Services</h1>
+            <hr>
+            <div class="our-service-container">
+                <div class="our-services-1">
+                    <div class="our-services-up">
+                        <h2>Acne Scar Treatment</h2>
+                        <p>Regain your skin's confidence with our transformative acne scar treatment solutions</p>
+
+                    </div>
+                    <div class="our-services-bottom">
+                        <img src="./img/ourserevice1.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
 
