@@ -74,7 +74,7 @@
                 <div class="our-service-container">
                     <div class="our-services-1">
                         <div class="our-services-bottom">
-                            <img src="./img/ourserevice1.svg" alt="" class="serviceimage2">
+                            <img src="./img/ourserevice2.svg" alt="" class="serviceimage2">
                         </div>
                         <div class="our-services-up">
                             <h2>Acne Scar Treatment</h2>
@@ -94,15 +94,23 @@
 
                         </div>
                         <div class="our-services-bottom">
-                            <img src="./img/ourserevice1.svg" alt=""class="serviceimage3">
+                            <img src="./img/ourserevice3.svg" alt=""class="serviceimage3">
                         </div>
 
 
                     </div>
                 </div>
+
+
             </div>
+            <a class="button" href="#">Explore More</a>
 
 
+        </section>
+        <section class="our-services-dec">
+            <div class="service-dec">
+
+            </div>
         </section>
     </div>
 
