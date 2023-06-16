@@ -11,14 +11,13 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services </a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a class="button" href="#">Book Apointment</a></li>
-        
+        <li><a href="index.php">Home</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="services.php">Services </a></li>
+        <li><a href="contact.php">Contact Us</a></li>
+        <li><a class="button" href="contact.php">Book Apointment</a></li>
+
       </ul>
     </nav>
-   
+
   </header>
-  
