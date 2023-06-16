@@ -109,25 +109,141 @@
         </section>
         <section class="our-services-dec">
             <div class="service-dec-main">
-            <div class="service-dec">
-                <h1>Our Services</h1>
-                <hr>
-                <div class="service-decp">
-                <p>With 64 years of experience in the skin clinic industry and 56 years specializing in Laser
-                    Cosmetology and Medical Aesthetics, we offer a safe and effective alternative to plastic cosmetic
-                    surgeries. </p>
-                <p>Our portfolio boasts 100% successful, result-oriented treatments, designed to seamlessly integrate
-                    into your lifestyle. </p>
+                <div class="service-dec">
+                    <h1>Our Services</h1>
+                    <hr>
+                    <div class="service-decp">
+                        <p>With 64 years of experience in the skin clinic industry and 56 years specializing in Laser
+                            Cosmetology and Medical Aesthetics, we offer a safe and effective alternative to plastic
+                            cosmetic
+                            surgeries. </p>
+                        <p>Our portfolio boasts 100% successful, result-oriented treatments, designed to seamlessly
+                            integrate
+                            into your lifestyle. </p>
                     </div>
 
 
 
-            </div>
+                </div>
             </div>
             <!-- <img src="./img/ourserevice1.svg" alt="" id="serviceimage1">
             <img src="./img/ourserevice3.svg" alt="" id="serviceimage2"> -->
 
         </section>
+        <section class="testi">
+            <div class="service-dec testimonial">
+                <h1>Testimonials</h1>
+                <hr>
+                <div class="testi-container">
+                    <a href="#" id="prev-btn"><img src="./img/prarrow.svg" alt="Previous"></a>
+                    <div class="testi-dec">
+                        <p>It was an experience of a lifetime with you guys. It is definitely the best dental clinic I
+                            have ever visited.</p>
+                        <h3>Evelynne Celie</h3>
+                        <h5>Houston</h5>
+                    </div>
+                    <img src="./img/testi1.svg" alt="" class="re-img">
+                    <a href="#" id="next-btn"><img src="./img/nextarrow.svg" alt="Next"></a>
+                </div>
+            </div>
+        </section>
+        <script>const testimonials = [
+                {
+                    comment: "It was an experience of a lifetime with you guys. It is definitely the best dental clinic I have ever visited.",
+                    name: "Evelynne Celie",
+                    location: "Houston",
+                    images: ["./img/testi1.svg", "./img/testi2.svg", "./img/testi3.svg", "./img/testi4.svg"]
+                },
+                {
+                    comment: "I highly recommend this dental clinic. The staff is friendly and professional, and the service is exceptional.",
+                    name: "John Smith",
+                    location: "New York",
+                    images: ["./img/testi1.svg", "./img/testi2.svg", "./img/testi3.svg", "./img/testi4.svg"]
+                },
+                // Add more testimonials as needed
+            ];
+
+            let currentTestimonial = 0;
+            let currentImage = 0;
+            let imageInterval;
+
+            function showTestimonial() {
+                const testimonial = testimonials[currentTestimonial];
+                document.querySelector(".testi-dec p").textContent = testimonial.comment;
+                document.querySelector(".testi-dec h3").textContent = testimonial.name;
+                document.querySelector(".testi-dec h5").textContent = testimonial.location;
+                document.querySelector(".re-img").src = testimonial.images[currentImage];
+
+                clearInterval(imageInterval); // Clear previous image interval
+
+                // Check if it's the last image in the testimonial
+                if (currentImage === testimonial.images.length - 1) {
+                    // If it's the last image, don't start the interval
+                    imageInterval = null;
+                } else {
+                    // If it's not the last image, start the interval
+                    imageInterval = setInterval(nextImage, 3000);
+                }
+            }
+
+            function prevTestimonial(e) {
+                e.preventDefault(); // Prevent default link behavior (scrolling to top)
+                currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
+                currentImage = 0; // Reset current image index
+                showTestimonial();
+            }
+
+            function nextTestimonial(e) {
+                e.preventDefault(); // Prevent default link behavior (scrolling to top)
+                currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+                currentImage = 0; // Reset current image index
+                showTestimonial();
+            }
+
+            function nextImage() {
+                currentImage = (currentImage + 1) % testimonials[currentTestimonial].images.length;
+                document.querySelector(".re-img").src = testimonials[currentTestimonial].images[currentImage];
+
+                // Check if it's the last image in the testimonial
+                if (currentImage === testimonials[currentTestimonial].images.length - 1) {
+                    clearInterval(imageInterval); // Stop the interval
+                }
+            }
+
+            document.getElementById("prev-btn").addEventListener("click", prevTestimonial);
+            document.getElementById("next-btn").addEventListener("click", nextTestimonial);
+
+            showTestimonial();
+
+            // Change image on mouseenter
+            document.querySelector(".re-img").addEventListener("mouseenter", () => {
+                nextImage();
+            });
+
+            // Change image on wheel scroll
+            document.querySelector(".re-img").addEventListener("wheel", (event) => {
+                if (event.deltaY < 0) {
+                    // Scroll up
+                    currentImage = (currentImage - 1 + testimonials[currentTestimonial].images.length) % testimonials[currentTestimonial].images.length;
+                } else {
+                    // Scroll down
+                    currentImage = (currentImage + 1) % testimonials[currentTestimonial].images.length;
+                }
+                document.querySelector(".re-img").src = testimonials[currentTestimonial].images[currentImage];
+            });
+            document.querySelector(".re-img").addEventListener("wheel", (event) => {
+                event.preventDefault();
+            });
+
+
+
+        </script>
+
+
+
+
+
+
     </div>
 
 

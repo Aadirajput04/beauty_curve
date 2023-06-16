@@ -85,9 +85,10 @@ nav ul li .button {
 
 /* =====================================================contact us page css starts herfe============================ */
 
-.body{
+.body {
     margin: 0;
 }
+
 .container-11 {
     display: flex;
     justify-content: center;
@@ -823,12 +824,14 @@ footer {
 
 
 
-.our-services,.service-dec {
+.our-services,
+.service-dec {
     text-align: center;
     padding: 48px 64px;
 }
 
-.our-services hr ,.service-dec hr{
+.our-services hr,
+.service-dec hr {
     width: 17.75rem;
     margin: auto;
     border: 2px solid #7A235B;
@@ -836,7 +839,8 @@ footer {
 }
 
 
-.our-services h1 ,.service-dec h1{
+.our-services h1,
+.service-dec h1 {
     padding-bottom: 0.8rem;
     font-family: 'Playfair Display';
     font-style: normal;
@@ -870,53 +874,62 @@ footer {
     color: #F5EFF3;
 
 }
-.our-service-container p{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
 
-color: #F7EFF3;
+.our-service-container p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #F7EFF3;
 }
 
 .our-services-bottom img {
     width: 100%;
     /* border-radius: 0 0 0 32px; */
 }
-.our-service-main-container{
+
+.our-service-main-container {
     display: flex;
 
 }
-.our-services-bottom .serviceimage2{
+
+.our-services-bottom .serviceimage2 {
     border-radius: 0 32px 0 0 !important;
     margin-bottom: -4.5px;
 }
-.our-services-bottom .serviceimage1,.serviceimage3{
-    border-radius: 0 0 0 32px  !important;
+
+.our-services-bottom .serviceimage1,
+.serviceimage3 {
+    border-radius: 0 0 0 32px !important;
 }
-.our-services .button{
+
+.our-services .button {
     background: #B1056D;
-border-radius: 32px;
-text-decoration: none;
-color: white;
-padding: 16px 32px;
-font-weight: 700;
-font-size: 20px;
-line-height: 29px;
+    border-radius: 32px;
+    text-decoration: none;
+    color: white;
+    padding: 16px 32px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
 
 
 }
-.our-services .button:hover{
+
+.our-services .button:hover {
     background-color: white;
     color: #b1056d;
     border: 2px solid #b1056d;
 }
-.service-dec{
+
+.service-dec {
     padding: 100px;
 }
-.service-dec-main{
+
+.service-dec-main {
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
@@ -924,23 +937,27 @@ line-height: 29px;
 
 
 }
-.service-dec{
 
-background-color: #741349;
-width: 50%;
-border-radius: 15px;
+.service-dec {
+
+    background-color: #741349;
+    width: 50%;
+    border-radius: 15px;
 
 
 }
-.service-dec h1{
+
+.service-dec h1 {
     color: white;
 
 
 }
-.service-dec hr{
+
+.service-dec hr {
     border: 2px solid white;
 }
-.service-decp p{
+
+.service-decp p {
     margin-top: 48px;
     text-align: left;
     color: white;
@@ -948,12 +965,85 @@ border-radius: 15px;
 
 }
 
-.our-services-dec{
+.our-services-dec {
     margin-bottom: 100px;
 
 }
+
 /* #serviceimage2{
     position: relative;
      top: 20px;
 
 } */
+
+.testi-container {
+    display: flex;
+
+    align-items: center;
+    padding: 50px 25px;
+    gap: 72px;
+
+}
+
+.testimonial {
+    background: #F7EFF3;
+    width: 100%;
+    padding: auto;
+}
+
+.testimonial h1 {
+    color: #741349;
+}
+
+.testimonial hr {
+    border: 2px solid #741349;
+}
+
+.testi {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.testi-container p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+
+    color: #B1056D;
+}
+
+.testi-dec img {
+    padding-top: 7rem;
+
+
+}
+
+.testi-dec h3 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: right;
+    color: #767071;
+    position: relative;
+   top: 72px;
+}
+
+.testi-dec h5 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #767071;
+    position: relative;
+    top: 86px;
+}
+.testi-container,.re-img {
+border-radius: 15px;
+  }
+
