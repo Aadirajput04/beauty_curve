@@ -1,3 +1,6 @@
+<?php
+$currentPage = 'contact';
+?>
 <!DOCTYPE html>
 <html lang="en">
 

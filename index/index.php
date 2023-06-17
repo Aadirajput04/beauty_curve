@@ -1,3 +1,6 @@
+<?php
+$currentPage = 'index';
+?>
 <!DOCTYPE html>
 <html lang="en">
 

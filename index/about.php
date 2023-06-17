@@ -1,3 +1,6 @@
+<?php
+$currentPage = 'about';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +21,7 @@
 
 
     ?>
-      
+
 
 
     <section class="main-ab">

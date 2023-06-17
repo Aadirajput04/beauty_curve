@@ -1,3 +1,8 @@
+<?php
+$currentPage = 'services';
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +14,7 @@
 </head>
 
 <body>
-   
+
 
 
     <div class="Service-hero-container">
@@ -26,7 +31,7 @@
 
             </div>
 
-    
+
         </div>
     </div>
     <section class="Service-main">
