@@ -10,17 +10,19 @@ html {
 
 /* ==================================header section============================================ */
 
-marquee {
+.marquee {
+    background-color: #F5EFF3;
     color: #741349;
-    /* position: sticky;
-    top: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
-
-marquee span {
-    margin-left: 20rem;
+.marquee span {
+   margin: auto;
 }
-
 
 header {
     display: flex;

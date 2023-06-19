@@ -1,13 +1,13 @@
-<marquee direction="left" bgcolor="#F5EFF3" behavior="alternate">
-    customercare@beautyncurves.com
+<div class="marquee">
+    <span>customercare@beautyncurves.com</span>
     <span>TOLL FREE: 1800-572-3579</span>
     <span>
-        <a href=""> <img src="./img/Instagram.svg" alt=""> </a>
-        <a href=""> <img src="./img/Facebook.svg" alt=""> </a>
-        <a href=""> <img src="./img/Gmail.svg" alt=""> </a>
-        <a href=""> <img src="./img/Phone.svg" alt=""> </a>
+        <a href=""><img src="./img/Instagram.svg" alt=""></a>
+        <a href=""><img src="./img/Facebook.svg" alt=""></a>
+        <a href=""><img src="./img/Gmail.svg" alt=""></a>
+        <a href=""><img src="./img/Phone.svg" alt=""></a>
     </span>
-</marquee>
+</div>
 
 <header>
     <div class="logo-1">
