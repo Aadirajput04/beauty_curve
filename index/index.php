@@ -34,7 +34,9 @@ $currentPage = 'index';
                 <h2>Embrace Your<br>
                     Authentic <br>Beauty</h2>
                 <p>Journey to Unveiling Your Radiance</p>
-                <a class="button" href="#">Book Apointment</a>
+                <a href="contact.php" class="button">Book Apointment</a>
+
+
 
             </div>
             <div class="section-hero-right">
@@ -49,7 +51,7 @@ $currentPage = 'index';
                 <h1>We are the leading<br>
                     skin centre in Gujarat</h1>
                 <div class="view-more">
-                    <h2>View More <img class="arrow-img" src="./img/ArrowDown.svg" alt=""> </h2>
+                  <a href="about.php" style="text-decoration:none; color:white;">  <h2>View More <img class="arrow-img" src="./img/ArrowDown.svg" alt=""> </h2></a>
                 </div>
 
             </div>
@@ -240,18 +242,21 @@ $currentPage = 'index';
         </script>
         <div class="container-11" style="margin-bottom:30px; padding-top:0px;">
 
+
             <div class="box-11">
                 <div class="form-container-1">
                     <h2>Get in Touch</h2>
-                    <form >
 
-                        <input id="input" type="text" placeholder="Name" required>
 
-                        <input id="input" type="email" placeholder="Email" required>
+                    <form action="https://formspree.io/f/xjvdnjgn" method="post">
 
-                        <input id="input" type="text" placeholder="Subject" required>
+                        <input id="input" type="text" placeholder="Name" name="name"required>
 
-                        <input id="input" type="tel" placeholder="Phone Number" required>
+                        <input id="input" type="email" placeholder="Email"name="email" required>
+
+                        <input id="input" type="text" placeholder="Subject" name="subject" required>
+
+                        <input id="input" type="tel" placeholder="Phone Number" name="phone" required>
                         <div class="but01">
                             <button type="submit">Send Message</button>
                         </div>

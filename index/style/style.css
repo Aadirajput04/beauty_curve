@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+
 * {
     font-family: lato, sans-serif;
     padding: 0;
@@ -28,12 +31,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    background-color: transparent;
-    /* position: sticky;
-    top: 0; */
-    backdrop-filter: blur(3px);
-            /* background-color: #f1f1f1; */
+    padding: 8px;
+    background-color:  transparent;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(8px);
+            background-color: rgba(203, 197, 197, 0.5);
 }
 
 
@@ -65,23 +68,35 @@ nav ul li a {
     font-weight: 600;
     font-size: 20px;
     line-height: 29px;
-    padding: 12px 32px;
+    padding: 4px 25px;
+    transition: transform 0.3s ease-in-out;
 
 }
 
 nav ul li a:hover {
-    background-color: #741349 !important;
-    color: white;
-    border-radius: 32px;
 
+    font-weight: 800;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+
+}
+.active{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: #741349;
+
+}
+.button1:hover{
+    text-decoration: none;
 }
 
 nav ul li .button {
-    padding: 12px 28px;
+    padding: 9px 17px;
     background-color: #741349;
     color: white;
     border: none;
-    border-radius: 2rem;
+    border-radius: 0.8rem;
     cursor: pointer;
     margin-left: 4px;
 }
@@ -91,7 +106,7 @@ nav ul li .button:hover {
     background-color: white !important;
     color: #741349 !important;
     border: 1px solid #741349;
-    border-radius: 2rem !important;
+    border-radius: 0.8rem !important;
     cursor: pointer !important;
     margin-left: 4px !important;
 }
@@ -807,6 +822,7 @@ footer {
     line-height: 29px;
     color: #F5EFF3;
     margin-top: 39px;
+
 }
 
 .section-hero-left a:hover {

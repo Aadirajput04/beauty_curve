@@ -11,7 +11,7 @@
 
 <header>
     <div class="logo-1">
-        <img src="./img/logo.svg" alt="Logo">
+        <img src="./img/logo.svg" alt="Logo" style="height: 62px;">
     </div>
     <nav>
         <ul>
@@ -19,7 +19,7 @@
             <li <?php if($currentPage === 'about') echo 'class="active"'; ?>><a href="about.php">About</a></li>
             <li <?php if($currentPage === 'services') echo 'class="active"'; ?>><a href="services.php">Services</a></li>
             <li <?php if($currentPage === 'contact') echo 'class="active"'; ?>><a href="contact.php">Contact Us</a></li>
-            <li><a class="button" href="contact.php">Book Appointment</a></li>
+            <li><a class="button button1" href="contact.php">Book Now</a></li>
         </ul>
     </nav>
 </header>

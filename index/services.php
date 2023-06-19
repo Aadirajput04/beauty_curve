@@ -16,11 +16,11 @@ $currentPage = 'services';
 <body>
 
 
-
-    <div class="Service-hero-container">
-    <?php
+<?php
     include "header.php";
     ?>
+    <div class="Service-hero-container">
+
         <div class="Service-hero">
             <div class="Service-hero-left">
 

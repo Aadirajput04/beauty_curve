@@ -27,15 +27,15 @@ $currentPage = 'contact';
         <div class="box-11">
             <div class="form-container-1">
                 <h2>Get in Touch</h2>
-                <form>
+                <form action="https://formspree.io/f/xjvdnjgn" method="post">
 
-                    <input id="input" type="text" placeholder="Name" required>
+                    <input id="input" type="text" placeholder="Name" name="name" required>
 
-                    <input  id="input"  type="email" placeholder="Email" required>
+                    <input id="input" type="email" placeholder="Email" name="email" required>
 
-                    <input id="input"  type="text" placeholder="Subject" required>
+                    <input id="input" type="text" placeholder="Subject" name="subject" required>
 
-                    <input id="input"  type="tel" placeholder="Phone Number" required>
+                    <input id="input" type="tel" placeholder="Phone Number" name="phone" required>
                     <div class="but01">
                         <button type="submit">Send Message</button>
                     </div>
@@ -76,10 +76,7 @@ $currentPage = 'contact';
         </div>
         <div class="right-side">
             <div class="maps">
-                <div id="map"><iframe width="700" height="400" frameborder="0" scrolling="no" marginheight="0"
-                        marginwidth="0" id="gmap_canvas"
-                        src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=shivnagar%20surat+(sachin)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-                        href='https://maps-generator.com/'></a>
+                <div id="map"><iframe width="700" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=shivnagar%20surat+(sachin)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'></a>
                 </div>
             </div>
         </div>
@@ -106,13 +103,19 @@ $currentPage = 'contact';
         function initMap() {
             // Create a map centered at your desired location
             var map = new google.maps.Map(document.getElementById("map"), {
-                center: { lat: 37.7749, lng: -122.4194 },
+                center: {
+                    lat: 37.7749,
+                    lng: -122.4194
+                },
                 zoom: 12
             });
 
             // Add a marker at your location
             var marker = new google.maps.Marker({
-                position: { lat: 37.7749, lng: -122.4194 },
+                position: {
+                    lat: 37.7749,
+                    lng: -122.4194
+                },
                 map: map,
                 title: "Your Location"
             });
