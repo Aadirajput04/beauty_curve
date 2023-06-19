@@ -563,7 +563,7 @@ footer {
 
 }
 .Service-main {
-	margin-top: -9rem;
+	margin-top: -10rem;
 }
 
 .ServiceLable a {
@@ -615,6 +615,7 @@ footer {
     font-weight: 500;
     font-size: 96px;
     line-height: 128px;
+    padding-bottom: 325px;
 }
 
 .service-main-container {
@@ -764,7 +765,7 @@ footer {
     position: relative;
     min-height: 400px;
     margin-top: -10rem;
-    z-index: -1;
+    z-index: -2;
 
 
 
@@ -779,6 +780,8 @@ footer {
     align-items: flex-start;
     justify-content: center;
     padding-left: 100px;
+
+
 
 }
 
@@ -1246,3 +1249,5 @@ color: #022D33;
 .main-111{
     margin:2rem 0 0  0 ;
 }
+
+
