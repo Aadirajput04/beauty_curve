@@ -150,8 +150,8 @@ $currentPage = 'index';
                 </div>
             </div>
         </section>
-        <script>const testimonials = [
-                {
+        <script>
+            const testimonials = [{
                     comment: "It was an experience of a lifetime with you guys. It is definitely the best dental clinic I have ever visited.",
                     name: "Evelynne Celie",
                     location: "Houston",
@@ -237,10 +237,45 @@ $currentPage = 'index';
             document.querySelector(".re-img").addEventListener("wheel", (event) => {
                 event.preventDefault();
             });
-
-
-
         </script>
+        <div class="container-11" style="margin-bottom:30px; padding-top:0px;">
+
+            <div class="box-11">
+                <div class="form-container-1">
+                    <h2>Get in Touch</h2>
+                    <form>
+
+                        <input id="input" type="text" placeholder="Name" required>
+
+                        <input id="input" type="email" placeholder="Email" required>
+
+                        <input id="input" type="text" placeholder="Subject" required>
+
+                        <input id="input" type="tel" placeholder="Phone Number" required>
+                        <div class="but01">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="address-container">
+                    <h2>Reach Us:</h2>
+                    <ul>
+                        <li>VESU : <br>108-109-110 SNS Atria - A, Rundh, Vesu,Surat- <br> 394518, Gujarat, India</li>
+                        <li>ADAJAN : <br>4, Premjinagar Society-1, Near Sardar Bridge <br> Circle, Opp. Muktanand Complex,
+                            Adajan <br> Surat-395009, Gujarat, India</li>
+                        <li>CHAUTAPUL : <br>1st Floor, Sahebji Shelter,Chautapul,Surat- <br> 395003, Gujarat, India</li>
+                        <li><img src="./img/Phone.svg" alt="">1800-572-3579 , +91 9377 684422</li>
+                        <li><img src="./img/Gmail.svg" alt="">customercare@beautyncurves.com</li>
+                    </ul>
+                    <ul class="social-media">
+                        <li><a href="#"><img src="./img/Instagram.svg" alt="" height="30px"></a> </li>
+                        <li><a href="#"><img src="./img/Facebook.svg" alt="" height="30px"></a></li>
+                        <li><a href="#"><img src="./img/linked-in.svg" alt="" height="23px"></a></li>
+                        <li><a href="#"><img src="./img/twitter.svg" alt="" height="23px"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
 
 

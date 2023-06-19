@@ -28,16 +28,16 @@ $currentPage = 'contact';
             <div class="form-container-1">
                 <h2>Get in Touch</h2>
                 <form>
-                    <h5>Your Name</h5>
-                    <input type="text" placeholder="Name" required>
-                    <h5>Your Email</h5>
-                    <input type="email" placeholder="Email" required>
-                    <h5>Send your message</h5>
-                    <input type="text" placeholder="Subject" required>
-                    <h5>phone number</h5>
-                    <input type="number" placeholder="phone number" required>
+
+                    <input id="input" type="text" placeholder="Name" required>
+
+                    <input  id="input"  type="email" placeholder="Email" required>
+
+                    <input id="input"  type="text" placeholder="Subject" required>
+
+                    <input id="input"  type="tel" placeholder="Phone Number" required>
                     <div class="but01">
-                        <button type="submit">Submit</button>
+                        <button type="submit">Send Message</button>
                     </div>
                 </form>
             </div>
@@ -52,10 +52,10 @@ $currentPage = 'contact';
                     <li><img src="./img/Gmail.svg" alt="">customercare@beautyncurves.com</li>
                 </ul>
                 <ul class="social-media">
-                    <li><a href="#"><img src="./img/Instagram.svg" alt="" height="70px"></a> </li>
-                    <li><a href="#"><img src="./img/Facebook.svg" alt="" height="70px"></a></li>
-                    <li><a href="#"><img src="./img/linked-in.svg" alt="" height="52px"></a></li>
-                    <li><a href="#"><img src="./img/twitter.svg" alt="" height="52px"></a></li>
+                    <li><a href="#"><img src="./img/Instagram.svg" alt="" height="30px"></a> </li>
+                    <li><a href="#"><img src="./img/Facebook.svg" alt="" height="30px"></a></li>
+                    <li><a href="#"><img src="./img/linked-in.svg" alt="" height="23px"></a></li>
+                    <li><a href="#"><img src="./img/twitter.svg" alt="" height="23px"></a></li>
                 </ul>
             </div>
         </div>
