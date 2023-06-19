@@ -21,7 +21,7 @@ html {
 }
 
 .marquee span {
-   margin: auto;
+    margin: auto;
 }
 
 header {
@@ -32,7 +32,8 @@ header {
     background-color: transparent;
     /* position: sticky;
     top: 0; */
-    /* background-color: #f1f1f1; */
+    backdrop-filter: blur(3px);
+            /* background-color: #f1f1f1; */
 }
 
 
@@ -84,9 +85,10 @@ nav ul li .button {
     cursor: pointer;
     margin-left: 4px;
 }
+
 nav ul li .button:hover {
 
-    background-color: white  !important;
+    background-color: white !important;
     color: #741349 !important;
     border: 1px solid #741349;
     border-radius: 2rem !important;
@@ -154,13 +156,15 @@ nav ul li .button:hover {
     border: none;
     border-bottom: 2px solid black;
     outline: none;
-    background: none ;
+    background: none;
 }
 
-#input::placeholder{
+#input::placeholder {
     color: black !important;
     font-weight: bold !important;
-}.form-container-1 .but01 {
+}
+
+.form-container-1 .but01 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,12 +189,12 @@ nav ul li .button:hover {
 
 .address-container {
 
-	padding: 35px;
-	margin-right: 6rem;
-	background: #741349;
-	border-radius: 32px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+    padding: 35px;
+    margin-right: 6rem;
+    background: #741349;
+    border-radius: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .address-container h2 {
@@ -349,7 +353,7 @@ nav ul li .button:hover {
     background-size: cover;
     display: flex;
     height: 100vh;
-    margin-top: -10rem;
+    margin-top: -7.42rem;
     flex-direction: column;
 
 
@@ -361,10 +365,11 @@ nav ul li .button:hover {
 .main-box {
     background-color: #ccc;
     text-align: center;
-
+    margin: 21rem auto;
     display: flex;
     padding: 15px;
     flex-direction: column;
+    width: 50%;
 
 }
 
@@ -420,6 +425,9 @@ footer {
 .footer-column p {
     padding-bottom: 3px;
     font-weight: 100;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
 
 }
 
@@ -538,6 +546,9 @@ footer {
 
 
 
+}
+.Service-main {
+	margin-top: -9rem;
 }
 
 .ServiceLable a {
@@ -1050,7 +1061,7 @@ footer {
     text-align: right;
     color: #767071;
     position: relative;
-   top: 72px;
+    top: 72px;
 }
 
 .testi-dec h5 {
@@ -1063,7 +1074,159 @@ footer {
     position: relative;
     top: 86px;
 }
-.testi-container,.re-img {
-border-radius: 15px;
-  }
 
+.testi-container,
+.re-img {
+    border-radius: 15px;
+}
+.main-115{
+    padding: 20px;
+}
+
+
+.main-113{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.main-113-left {
+
+    margin: auto    ;
+}
+.main-left-img{
+    border-radius: 64px 0px;
+    background-color: #741349;
+    overflow: hidden;
+
+}
+
+.main-113-right {
+    width: 50%;
+    margin: auto;
+}
+
+.main-113-right h1 {
+    font-family: 'Luxurious Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center ;
+    color: #822B5B;
+    padding-bottom:24px ;
+     text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+
+}
+.main-113-right h3,.main-113-right h5{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+padding-bottom: 16px;
+
+text-align: center;
+
+color: #822B5B;
+}
+.main-113-right p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #AC8494;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box {
+    display: flex;
+}
+
+.column {
+    flex-basis: 50%;
+}
+
+/* .left-column {
+    padding-right: 10px;
+}
+
+.right-column {
+    padding-left: 10px;
+} */
+
+.image-container {
+    width: 40%;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+
+}
+
+.content-container {
+    width: 60%;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.left-img{
+    display: flex;
+}
+.right-img{
+    display: flex;
+    /* background-color: ; */
+}
+.content-container h2{
+    font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+text-align: center;
+
+color: #022D33;
+}
+.content-container h3{
+    font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+text-align: center;
+
+
+color: #022D33;
+}
+.left-img .content-container{
+    background: #B6D5DA;
+}
+.right-img .content-container{
+    background: #E9D8BC;
+}
+.main-111{
+    margin:2rem 0 0  0 ;
+}

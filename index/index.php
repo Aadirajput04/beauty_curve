@@ -243,7 +243,7 @@ $currentPage = 'index';
             <div class="box-11">
                 <div class="form-container-1">
                     <h2>Get in Touch</h2>
-                    <form>
+                    <form >
 
                         <input id="input" type="text" placeholder="Name" required>
 
