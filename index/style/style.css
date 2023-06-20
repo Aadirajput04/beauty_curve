@@ -5,7 +5,7 @@
     font-family: lato, sans-serif;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 
 }
 
@@ -15,28 +15,33 @@ html {
 
 /* ==================================header section============================================ */
 .marquee {
-    width: 100%;
-    overflow: hidden; /* Change from visible to hidden */
+    /* width: 100%; */
+    overflow: hidden;
+    /* Change from visible to hidden */
     position: relative;
     z-index: 1;
     background-color: white;
     padding: 10px;
-  }
+}
 
-  .marquee-content {
-    display: inline-block;
+.marquee-content {
     white-space: nowrap;
-  }
+    display: flex;
+    justify-content: space-evenly;
 
-  .marquee-content span,
-  .marquee-content .social-icons {
-    display: inline-block; /* Add this line to make the elements inline */
+}
+
+.marquee-content span,
+.marquee-content .social-icons {
+    display: inline-block;
+    /* Add this line to make the elements inline */
     padding-right: 50px;
-    margin-right: 20px; /* Adjust the margin value as needed */
+    margin-right: 20px;
+    /* Adjust the margin value as needed */
     opacity: 0;
     padding-left: 32px;
     animation: marquee-item 10s linear infinite;
-  }
+}
 
 .marquee:hover .marquee-content {
     animation-play-state: paused;
@@ -329,7 +334,7 @@ nav ul li .button:hover {
     align-items: center !important;
 
     margin-left: 5rem;
-    width: 100%;
+    /* max-width: 100%; */
     border-radius: 32px 0px 0px 32px;
     padding-bottom: 2rem;
 
@@ -348,10 +353,10 @@ nav ul li .button:hover {
     border-radius: 32px 0 0 32px;
 }
 
-.right-side {
-    width: 60%;
+/* .right-side {
+    width: 100%;
 
-}
+} */
 
 .right-side .maps {
     background-color: #ccc;
