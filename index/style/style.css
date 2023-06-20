@@ -227,6 +227,7 @@ nav ul li .button:hover {
     border-bottom: 2px solid black;
     outline: none;
     background: none;
+    font-family: 'Montserrat';
 }
 
 #input::placeholder {
@@ -248,6 +249,7 @@ nav ul li .button:hover {
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 16px;
     line-height: 32px;
@@ -269,13 +271,13 @@ nav ul li .button:hover {
 
 .address-container h2 {
 
-    font-family: 'Lato';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 64px;
 
-    color: #000000;
+    color: white;
 }
 
 .address-container ul {
@@ -289,7 +291,7 @@ nav ul li .button:hover {
     margin-bottom: 10px;
     display: flex;
     gap: 0.5rem;
-    font-family: 'Montserrat';
+    font-family: 'jost';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -496,6 +498,7 @@ footer {
     color: white;
     font-weight: 700;
     font-size: 25px;
+    font-family: 'Montserrat';
 }
 
 .footer-column p {
@@ -1342,6 +1345,101 @@ footer {
 .main-111 {
     margin: 2rem 0 0 0;
 }
+
+/*---------------=============================================== responsive css start here */
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    top:35%;
+    right: 40px;
+
+}
+
+.line{
+    width: 33px;
+    background-color:#741349;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+
+
+/* =======================================================responsive work starts here===================================== */
+@media (max-width: 1000px) {
+    nav {
+      max-width: 100%;
+    }
+
+    ul {
+      flex-direction: column;
+      /* transform: rotate(360deg); */
+      transition: all 0.3s ease-in-out;
+      /* transition: all .5s ease; */
+    }
+
+    li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    .burger{
+        display: block;
+
+    }
+
+    .h-nav-resp{
+        height: 75px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+
+  }
+
+
+  @media (max-width: 1273px) {
+    nav {
+      max-width: 100%;
+    }
+    .container-11 h2{
+
+    font-weight: 600;
+    font-size: 48px;
+    line-height:31px;
+    }
+    .form-container-1 button{
+        padding: 6px 9px;
+    }
+
+}
+
+
+
+@media (max-width: 900px) {
+   .box-11{
+    flex-direction: column;
+   }
+   .address-container h2{
+    padding-bottom:  1rem !important;
+    font-size: 40px !important;
+   }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

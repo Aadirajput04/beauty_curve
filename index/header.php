@@ -53,12 +53,17 @@
 
 </script>
 
-<header>
+<header  class="h-nav-resp">
     <div class="logo-1">
         <img src="./img/logo.svg" alt="Logo" style="height: 62px;">
     </div>
+    <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
     <nav>
-        <ul>
+    <ul id="navlist" class="v-class-resp">
             <li <?php if($currentPage === 'index') echo 'class="active"'; ?>><a href="index.php">Home</a></li>
             <li <?php if($currentPage === 'about') echo 'class="active"'; ?>><a href="about.php">About</a></li>
             <li <?php if($currentPage === 'services') echo 'class="active"'; ?>><a href="services.php">Services</a></li>
@@ -67,3 +72,20 @@
         </ul>
     </nav>
 </header>
+<script>
+   const burger = document.querySelector('.burger')
+   const nav = document.querySelector('nav')
+
+   const ul = document.querySelector('ul')
+   const header = document.querySelector('header')
+
+
+
+    burger.addEventListener('click', function(){
+        ul.classList.toggle('v-class-resp')
+       header.classList.toggle('h-nav-resp')
+    })
+
+
+
+</script>
