@@ -1,13 +1,57 @@
-<div class="marquee">
-    <span>customercare@beautyncurves.com</span>
-    <span>TOLL FREE: 1800-572-3579</span>
-    <span>
-        <a href=""><img src="./img/Instagram.svg" alt=""></a>
-        <a href=""><img src="./img/Facebook.svg" alt=""></a>
-        <a href=""><img src="./img/Gmail.svg" alt=""></a>
-        <a href=""><img src="./img/Phone.svg" alt=""></a>
-    </span>
+<div class="marquee" behavior="alternet"  onmouseover="stopMarquee('center')" onmouseout="startMarquee()">
+    <div class="marquee-content">
+        <span>customercare@beautyncurves.com</span>
+        <span>TOLL FREE: 1800-572-3579</span>
+        <div class="social-icons">
+            <a href="#"><img src="./img/Instagram.svg" alt=""></a>
+            <a href="#"><img src="./img/Facebook.svg" alt=""></a>
+            <a href="#"><img src="./img/Gmail.svg" alt=""></a>
+            <a href="#"><img src="./img/Phone.svg" alt=""></a>
+        </div>
+    </div>
 </div>
+
+
+<script>
+// var marqueeElement = document.querySelector('.marquee');
+// var marqueeContentElement = document.querySelector('.marquee-content');
+// var isMarqueeStopped = false;
+// var centerPosition = 0;
+
+// marqueeElement.addEventListener('focusin', function() {
+//   stopMarquee();
+//   centerMarquee();
+// });
+
+// marqueeElement.addEventListener('focusout', function() {
+//   startMarquee();
+// });
+
+// function stopMarquee() {
+//   if (!isMarqueeStopped) {
+//     var currentPosition = marqueeContentElement.getBoundingClientRect().left;
+//     marqueeContentElement.style.animationPlayState = 'paused';
+//     centerPosition = (marqueeElement.offsetWidth - marqueeContentElement.offsetWidth) / 2 - currentPosition;
+//     marqueeContentElement.style.transform = 'translateX(' + centerPosition + 'px)';
+//     isMarqueeStopped = true;
+//   }
+// }
+
+// function startMarquee() {
+//   if (isMarqueeStopped) {
+//     marqueeContentElement.style.animationPlayState = 'running';
+//     marqueeContentElement.style.transform = 'translateX(0)';
+//     isMarqueeStopped = false;
+//   }
+// }
+
+// function centerMarquee() {
+//   marqueeContentElement.style.transform = 'translateX(' + centerPosition + 'px)';
+// }
+
+
+
+</script>
 
 <header>
     <div class="logo-1">

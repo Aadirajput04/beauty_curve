@@ -108,7 +108,7 @@ $currentPage = 'index';
 
 
             </div>
-            <a class="button" href="#">Explore More</a>
+            <a class="button" href="services.php">Explore More</a>
 
 
         </section>
@@ -269,8 +269,9 @@ $currentPage = 'index';
                         <li>ADAJAN : <br>4, Premjinagar Society-1, Near Sardar Bridge <br> Circle, Opp. Muktanand Complex,
                             Adajan <br> Surat-395009, Gujarat, India</li>
                         <li>CHAUTAPUL : <br>1st Floor, Sahebji Shelter,Chautapul,Surat- <br> 395003, Gujarat, India</li>
-                        <li><img src="./img/Phone.svg" alt="">1800-572-3579 , +91 9377 684422</li>
-                        <li><img src="./img/Gmail.svg" alt="">customercare@beautyncurves.com</li>
+                        <li><img src="./img/Phone.svg" alt=""><a style="text-decoration: none; color:white;"  href="tel:18005723579">1800-572-3579</a>, <a style="text-decoration: none; color:white;" href="tel:+919377684422">+91 9377 684422</a></li>
+
+<li><img src="./img/Gmail.svg" alt=""><a style="text-decoration: none; color:white;" href="mailto:customercare@beautyncurves.com">customercare@beautyncurves.com</a></li>
                     </ul>
                     <ul class="social-media">
                         <li><a href="#"><img src="./img/Instagram.svg" alt="" height="30px"></a> </li>
