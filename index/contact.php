@@ -44,10 +44,11 @@ $currentPage = 'contact';
             <div class="address-container">
                 <h2>Reach Us:</h2>
                 <ul>
-                    <li>VESU : <br>108-109-110 SNS Atria - A, Rundh, Vesu,Surat- <br> 394518, Gujarat, India</li>
-                    <li>ADAJAN : <br>4, Premjinagar Society-1, Near Sardar Bridge <br> Circle, Opp. Muktanand Complex,
-                        Adajan <br> Surat-395009, Gujarat, India</li>
-                    <li>CHAUTAPUL : <br>1st Floor, Sahebji Shelter,Chautapul,Surat- <br> 395003, Gujarat, India</li>
+                <li>      <a style="text-decoration: none; color:white;"href="https://www.google.com/maps/search/?api=1&query=108-109-110+SNS+Atria+-+A%2C+Rundh%2C+Vesu%2C+Surat-394518%2C+Gujarat%2C+India" target="_blank">VESU : <br>108-109-110 SNS Atria - A, Rundh, Vesu,Surat- <br> 394518, Gujarat, India</a></li>
+                        <li> <a style="text-decoration: none; color:white;" href="https://www.google.com/maps/search/?api=1&query=4%2C+Premjinagar+Society-1%2C+Near%2C+Sardar+Bridge+Circle%2C+Opp.+Muktanand+Complex%2C+Adajan%2C+Surat-395009%2C+Gujarat%2C+India" target="_blank">ADAJAN : <br>4, Premjinagar Society-1, Near Sardar Bridge <br> Circle, Opp. Muktanand Complex,
+                            Adajan <br> Surat-395009, Gujarat, India</a></li>
+                        <li>  <a style="text-decoration: none; color:white;" href="https://www.google.com/maps/search/?api=1&query=1st+Floor%2C+Sahebji+Shelter%2CChautapul%2CSurat-+395003%2C+Gujarat%2C+India" target="_blank">CHAUTAPUL : <br>1st Floor, Sahebji Shelter,Chautapul,Surat- <br> 395003, Gujarat, India</a></li>
+           
                     <li><img src="./img/Phone.svg" alt=""><a style="text-decoration: none; color:white;" href="tel:18005723579">1800-572-3579</a>, <a style="text-decoration: none; color:white;" href="tel:+919377684422">+91 9377 684422</a></li>
 
                     <li><img src="./img/Gmail.svg" alt=""><a style="text-decoration: none; color:white;" href="mailto:customercare@beautyncurves.com">customercare@beautyncurves.com</a></li>

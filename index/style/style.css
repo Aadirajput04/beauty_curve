@@ -541,6 +541,11 @@ footer {
     font-size: 14px;
     font-weight: 600;
 }
+.footer-column button:hover{
+    color:#741349;
+    background-color: white;
+    border: 3px solid #741349;
+}
 
 .footer-img {
     padding-top: 1.9rem;
