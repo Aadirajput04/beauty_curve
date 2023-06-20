@@ -43,11 +43,11 @@
     <div class="footer-column">
         <h4>Pages</h4>
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Testimonials</a></li>
+        <li><a href="index.php">Home</a></li>
+            <li><a href="services.php">Services</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+            <li><a href="about.php">Team</a></li>
+
         </ul>
     </div>
 
