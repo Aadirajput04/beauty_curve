@@ -54,7 +54,7 @@
     <div class="footer-column">
         <h4>Subscribe</h4>
         <form action="https://formspree.io/f/xlekqzoz" method="POST">
-            <input type="email" name="_replyto" placeholder="Enter your email" required>
+            <input type="email" name="_replyto" placeholder="Enter your Email" required>
             <button type="submit">Subscribe</button>
         </form>
         <div class="follow-us">
