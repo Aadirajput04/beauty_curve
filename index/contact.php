@@ -48,7 +48,7 @@ $currentPage = 'contact';
                         <li> <a style="text-decoration: none; color:white;" href="https://www.google.com/maps/search/?api=1&query=4%2C+Premjinagar+Society-1%2C+Near%2C+Sardar+Bridge+Circle%2C+Opp.+Muktanand+Complex%2C+Adajan%2C+Surat-395009%2C+Gujarat%2C+India" target="_blank">ADAJAN : <br>4, Premjinagar Society-1, Near Sardar Bridge <br> Circle, Opp. Muktanand Complex,
                             Adajan <br> Surat-395009, Gujarat, India</a></li>
                         <li>  <a style="text-decoration: none; color:white;" href="https://www.google.com/maps/search/?api=1&query=1st+Floor%2C+Sahebji+Shelter%2CChautapul%2CSurat-+395003%2C+Gujarat%2C+India" target="_blank">CHAUTAPUL : <br>1st Floor, Sahebji Shelter,Chautapul,Surat- <br> 395003, Gujarat, India</a></li>
-           
+
                     <li><img src="./img/Phone.svg" alt=""><a style="text-decoration: none; color:white;" href="tel:18005723579">1800-572-3579</a>, <a style="text-decoration: none; color:white;" href="tel:+919377684422">+91 9377 684422</a></li>
 
                     <li><img src="./img/Gmail.svg" alt=""><a style="text-decoration: none; color:white;" href="mailto:customercare@beautyncurves.com">customercare@beautyncurves.com</a></li>

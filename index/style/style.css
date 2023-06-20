@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 html {
@@ -15,29 +16,27 @@ html {
 /* ==================================header section============================================ */
 .marquee {
     width: 100%;
-    overflow: visible;
+    overflow: hidden; /* Change from visible to hidden */
     position: relative;
     z-index: 1;
     background-color: white;
-    white-space: nowrap;
     padding: 10px;
-}
+  }
 
-.marquee-content {
+  .marquee-content {
     display: inline-block;
     white-space: nowrap;
-    /* animation: marquee 10s linear infinite; */
-}
+  }
 
-.marquee-content span,
-.marquee-content .social-icons {
-    display: inline-block;
+  .marquee-content span,
+  .marquee-content .social-icons {
+    display: inline-block; /* Add this line to make the elements inline */
     padding-right: 50px;
-    margin-right: 20rem;
+    margin-right: 20px; /* Adjust the margin value as needed */
     opacity: 0;
     padding-left: 32px;
     animation: marquee-item 10s linear infinite;
-}
+  }
 
 .marquee:hover .marquee-content {
     animation-play-state: paused;
