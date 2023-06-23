@@ -487,15 +487,17 @@ footer {
     background-color: #741349;
     padding: 2rem;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 
 
 .footer-column {
-    flex-basis: 25%;
+    /* flex-basis: 25%; */
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-column h4 {
@@ -943,8 +945,10 @@ footer {
     padding: 44px 100px;
     display: flex;
     align-items: center;
-    gap: 37rem;
+    /* gap: 37rem; */
     cursor: pointer;
+    justify-content: space-between;
+
 
 }
 
@@ -996,8 +1000,9 @@ footer {
 
 .our-service-container {
     /* padding: 4.03rem 7.87rem;tff*/
-    padding: 64px 52px;
+    /* padding: 64px 52px; */
     width: 30%;
+    padding-top: 3rem;
 
 }
 
@@ -1037,6 +1042,9 @@ footer {
 
 .our-service-main-container {
     display: flex;
+    gap: 4.5rem;
+    padding-bottom: 2rem;
+
 
 }
 
@@ -1363,18 +1371,18 @@ footer {
 }
 
 /*---------------=============================================== responsive css start here */
-.burger{
+.burger {
     display: none;
     position: absolute;
     cursor: pointer;
-    top:35%;
+    top: 35%;
     right: 40px;
 
 }
 
-.line{
+.line {
     width: 33px;
-    background-color:#741349;
+    background-color: #741349;
     height: 4px;
     margin: 3px 3px;
 }
@@ -1384,48 +1392,50 @@ footer {
 /* =======================================================responsive work starts here===================================== */
 @media (max-width: 1000px) {
     nav {
-      max-width: 100%;
+        max-width: 100%;
     }
 
     ul {
-      flex-direction: column;
-      /* transform: rotate(360deg); */
-      transition: all 0.3s ease-in-out;
-      /* transition: all .5s ease; */
+        flex-direction: column;
+        /* transform: rotate(360deg); */
+        transition: all 0.3s ease-in-out;
+        /* transition: all .5s ease; */
     }
 
     li {
-      margin-right: 0;
-      margin-bottom: 10px;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
-    .burger{
+    .burger {
         display: block;
 
     }
 
-    .h-nav-resp{
+    .h-nav-resp {
         height: 75px;
     }
 
-    .v-class-resp{
+    .v-class-resp {
         opacity: 0;
     }
 
-  }
+}
 
 
-  @media (max-width: 1273px) {
+@media (max-width: 1273px) {
     nav {
-      max-width: 100%;
+        max-width: 100%;
     }
-    .container-11 h2{
 
-    font-weight: 600;
-    font-size: 48px;
-    line-height:31px;
+    .container-11 h2 {
+
+        font-weight: 600;
+        font-size: 40px !important;
+        line-height: 31px;
     }
-    .form-container-1 button{
+
+    .form-container-1 button {
         padding: 6px 9px;
     }
 
@@ -1434,17 +1444,217 @@ footer {
 
 
 @media (max-width: 900px) {
-   .box-11{
-    flex-direction: column;
-   }
-   .address-container h2{
-    padding-bottom:  1rem !important;
-    font-size: 40px !important;
-   }
+    .box-11 {
+        flex-direction: column;
+    }
+
+    .address-container h2 {
+        padding-bottom: 1rem !important;
+        font-size: 40px !important;
+    }
+
+    .email-container input[type="email"] {
+        width: 53%;
+        padding: 3px;
+    }
+
+    .email-container button[type="submit"] {
+        width: 41%;
+        padding: 5px;
+        margin-left: 0;
+    }
+
+    .head-text h1 {
+        font-size: 50px;
+
+    }
+
+    .section-hero-left {
+        padding-left: 44px;
+    }
+
+    .section-hero-left h2 {
+        font-size: 70px;
+        line-height: 100px;
+
+    }
+
+    .our-services .button {
+        padding: 10px 18px;
+        font-weight: 700;
+        font-size: 17px;
+    }
+
+    .our-services h1,
+    .service-dec h1 {
+        padding-bottom: 0.5rem;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 56px;
+    }
+
+    .service-decp p {
+        margin-top: 27px;
+        color: white;
+        padding: 0.5rem;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .service-dec {
+        padding: 80px;
+    }
+
+    .testi-container,
+    .re-img {
+        height: 280px;
+
+    }
+
+
+    .testimonial {
+
+
+        padding: 0;
+    }
+
+    .testi-container p {
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+
+
+    .section-hero-left a {
+        padding: 10PX 12px;
+        font-size: 1rem;
+    }
+
+    .section-hero-right {
+        height: 944px;
+
+    }
+
+    .footer-column h4 {
+        font-size: 20px;
+
+    }
+
+    .footer-column p {
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+
+    .footer-column .footer-logo{
+        width: 200px;
+    }
+
+
+    .footer-column ul li a {
+        font-size: 14px;
+
+    }
+
+    .footer-column {
+        flex-basis: 50%;
+
+    }
+
+    .our-services, .service-dec{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
+
+
+    .section-hero2 h1 {
+        font-size: 31px;
+        line-height: 45px;
+    }
+
+    .view-more h2 {
+        font-size: larger;
+
+    }
+
+    .testi-dec h3 {
+        top: 0;
+        font-size: 25px;
+
+    }
+
+    .testi-dec h5 {
+        top: 0;
+        font-size: 20px;
+    }
+
+
+    .container-11 h2 {
+
+        font-weight: 600;
+        font-size: 35px !important;
+        line-height: 31px;
+    }
 
 
 }
 
+
+
+@media (max-width: 410px) {
+   
+
+   
+    .section-hero-left h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .section-hero-left {
+        padding-left: 10px;
+    }
+
+    .section-hero-left p{
+        font-size: 16px;
+    line-height: 23px;
+    }
+
+    .section-hero-left a {
+        padding: 2PX 12px;
+        font-size: 10px;
+
+    }
+    .our-service-main-container{
+        gap: 0.5rem;
+    }
+
+    .our-services-up{
+        padding: 60px 0px;
+    }
+    .our-services-up h2{
+        font-size: 18px;
+    }
+    .our-service-container p{
+        font-size: 10px;
+    }
+
+    .our-services h1, .service-dec h1 {
+        font-size: 40px;
+        padding-bottom: 2px;
+    }
+
+    .section-hero2 h1 {
+        font-size: 25px;
+        line-height: 24px;
+    }
+
+
+
+
+}
 
 
 

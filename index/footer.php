@@ -1,7 +1,7 @@
 <footer>
     <div class="footer-column footer-img">
         <img src="./img/logo.svg" alt="Logo" width="302px" class="footer-logo" style="padding-bottom: 32px;">
-        <img src="./img/logo2.svg" class="footer-logo-parent " alt="Logo"><br>
+        <img src="./img/logo2.svg" width="200px" class="footer-logo-parent " alt="Logo"><br>
         <a href="https://www.kirtii.com" class="footer-link">https://www.kirtii.com</a>
     </div>
 

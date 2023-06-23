@@ -12,46 +12,6 @@
 </div>
 
 
-<script>
-// var marqueeElement = document.querySelector('.marquee');
-// var marqueeContentElement = document.querySelector('.marquee-content');
-// var isMarqueeStopped = false;
-// var centerPosition = 0;
-
-// marqueeElement.addEventListener('focusin', function() {
-//   stopMarquee();
-//   centerMarquee();
-// });
-
-// marqueeElement.addEventListener('focusout', function() {
-//   startMarquee();
-// });
-
-// function stopMarquee() {
-//   if (!isMarqueeStopped) {
-//     var currentPosition = marqueeContentElement.getBoundingClientRect().left;
-//     marqueeContentElement.style.animationPlayState = 'paused';
-//     centerPosition = (marqueeElement.offsetWidth - marqueeContentElement.offsetWidth) / 2 - currentPosition;
-//     marqueeContentElement.style.transform = 'translateX(' + centerPosition + 'px)';
-//     isMarqueeStopped = true;
-//   }
-// }
-
-// function startMarquee() {
-//   if (isMarqueeStopped) {
-//     marqueeContentElement.style.animationPlayState = 'running';
-//     marqueeContentElement.style.transform = 'translateX(0)';
-//     isMarqueeStopped = false;
-//   }
-// }
-
-// function centerMarquee() {
-//   marqueeContentElement.style.transform = 'translateX(' + centerPosition + 'px)';
-// }
-
-
-
-</script>
 
 <header  class="h-nav-resp">
     <div class="logo-1">
