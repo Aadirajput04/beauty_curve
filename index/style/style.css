@@ -877,7 +877,7 @@ footer {
 .section-hero-right {
     background-image: url(../img/homepage.svg);
     height: 1000px;
-
+    background-repeat: no-repeat;
     width: 50%;
 
 
@@ -1089,12 +1089,16 @@ footer {
     justify-content: center;
 
 
+    margin-left: 16rem;
+    margin-right: 16rem;
+
+
 }
 
 .service-dec {
 
     background-color: #741349;
-    width: 50%;
+    /* width: 50%; */
     border-radius: 15px;
 
 
@@ -1548,7 +1552,7 @@ footer {
         padding-bottom: 0;
     }
 
-    .footer-column .footer-logo{
+    .footer-column .footer-logo {
         width: 200px;
     }
 
@@ -1563,7 +1567,8 @@ footer {
 
     }
 
-    .our-services, .service-dec{
+    .our-services,
+    .service-dec {
         padding-left: 1rem;
         padding-right: 1rem;
     }
@@ -1605,21 +1610,111 @@ footer {
 
 
 
-@media (max-width: 410px) {
-   
+@media (max-width: 400px) {
 
-   
+    header .logo-1 img {
+        height: 35px !important;
+    }
+
+    header .logo-1 {
+        margin-left: 0;
+    }
+
+    .h-nav-resp {
+        height: 30px;
+    }
+
+    .line {
+        width: 24px;
+        height: 3px;
+    }
+
+
+    .burger {
+        top: 27%;
+        right: 18px;
+    }
+
+    .view {
+        padding: 15px 13px;
+    }
+
+
+
+    /* 
+    .service-dec {
+        width: 100%;
+    }
+ */
+
+    .our-services-dec {
+        display: flex;
+        justify-content: center;
+    }
+
+    .testi-container {
+        gap: 2px;
+        padding: 55px 0px;
+    }
+
+    .testi-container,
+    .re-img {
+        height: 137px;
+    }
+
+    .testi-container p {
+        line-height: 15px;
+        font-size: 10px;
+
+    }
+
+    .address-container {
+        margin-left: 5rem;
+    }
+
+    .container-11 h2 {
+        font-size: 30px;
+    }
+
+    .address-container li {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+
+    .form-container-1 button {
+        font-size: 10px !important;
+    }
+
+    .testi-dec h3 {
+        font-size: 9px;
+
+    }
+
+    .testi-dec h5 {
+        top: -17px;
+        font-size: 9px;
+    }
+
+
+    .section-hero-right {
+        height: 560px;
+        width: 100%;
+    }
+
     .section-hero-left h2 {
         font-size: 40px;
         line-height: 48px;
     }
+
     .section-hero-left {
         padding-left: 10px;
+        padding-top: 10rem;
     }
 
-    .section-hero-left p{
+    .section-hero-left p {
         font-size: 16px;
-    line-height: 23px;
+        line-height: 23px;
     }
 
     .section-hero-left a {
@@ -1627,31 +1722,37 @@ footer {
         font-size: 10px;
 
     }
-    .our-service-main-container{
+
+    .our-service-main-container {
         gap: 0.5rem;
     }
 
-    .our-services-up{
+    .our-services-up {
         padding: 60px 0px;
     }
-    .our-services-up h2{
+
+    .our-services-up h2 {
         font-size: 18px;
     }
-    .our-service-container p{
+
+    .our-service-container p {
         font-size: 10px;
     }
 
-    .our-services h1, .service-dec h1 {
+    .our-services h1,
+    .service-dec h1 {
         font-size: 40px;
         padding-bottom: 2px;
     }
 
     .section-hero2 h1 {
-        font-size: 25px;
+        font-size: 17px;
         line-height: 24px;
     }
 
-
+    .view-more h2 {
+        font-size: 12px;
+    }
 
 
 }
