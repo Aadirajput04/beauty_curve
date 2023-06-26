@@ -142,7 +142,7 @@ $currentPage = 'index';
                 <h1>Testimonials</h1>
                 <hr>
                 <div class="testi-container">
-                    <a href="#" id="prev-btn"><img src="./img/prarrow.svg" alt="Previous"></a>
+                    <a href="#" id="prev-btn"><img src="./img/prarrow.svg" alt="Previous" class="first-11111"  ></a>
                     <div class="testi-dec">
                         <p>It was an experience of a lifetime with you guys. It is definitely the best dental clinic I
                             have ever visited.</p>
@@ -150,7 +150,8 @@ $currentPage = 'index';
                         <h5>Houston</h5>
                     </div>
                     <img src="./img/testi1.svg" alt="" class="re-img">
-                    <a href="#" id="next-btn"><img src="./img/nextarrow.svg" alt="Next"></a>
+                    <a href="#" id="next-btn"><img src="./img/nextarrow.svg" alt="Next"  class="first-11111"  ></a>
+                    <div class="testi-dec"></a>
                 </div>
             </div>
         </section>

@@ -31,6 +31,7 @@ html {
     white-space: nowrap;
     display: flex;
     justify-content: space-evenly;
+    font-size: xx-small;
 
 }
 
@@ -38,13 +39,14 @@ html {
 .marquee-content .social-icons {
     display: inline-block;
     /* Add this line to make the elements inline */
-    padding-right: 50px;
+    /* padding-right: 50px; */
     margin-right: 20px;
     /* Adjust the margin value as needed */
     opacity: 0;
     padding-left: 32px;
     animation: marquee-item 10s linear infinite;
     font-weight: 900;
+    font-size: xx-small;
 }
 
 .marquee:hover .marquee-content {
@@ -213,8 +215,8 @@ nav ul li .button:hover {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 900;
-    font-size: 64px;
-    line-height: 32px;
+    font-size: 60px;
+    line-height: 65px;
 }
 
 .form-container-1 form {
@@ -1424,7 +1426,101 @@ footer {
         opacity: 0;
     }
 
+    .Service-hero-right h1 {
+        font-size: 63px;
+        padding-bottom: 0px;
+    }
+
+    .Service-hero {
+        height: 120vh;
+    }
+
+    .ServiceLable a {
+        font-size: 15px;
+    }
+
+    .service-left h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+
+    .service-left {
+        padding: 2.5rem;
+    }
+
+    .service-left p {
+        font-size: 15px;
+        line-height: 20px;
+
+
+    }
+
+
 }
+
+
+@media (max-width: 750px) {
+
+
+    .service-main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Service-main {
+        margin-top: 0;
+    }
+
+    .service-right {
+        height: auto;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================================================contact us page respomsive css=========================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 1273px) {
@@ -1445,9 +1541,36 @@ footer {
 
 }
 
+/* =====================================================conatct us page respomsive css=========================== */
+
+
+
+.head-text h1 {
+    font-size: 55px;
+}
+
+.left-side h2 {
+    font-size: 50px;
+}
+
+.left-side p {
+    font-size: 15px;
+}
+
+
+
 
 
 @media (max-width: 900px) {
+
+
+    .left-side {
+        padding: 2rem;
+        width: 60%;
+        border-radius: 32px 32px 0 0px;
+    }
+
+
     .box-11 {
         flex-direction: column;
     }
@@ -1488,6 +1611,13 @@ footer {
         font-weight: 700;
         font-size: 17px;
     }
+
+    .our-service-container {
+        width: auto;
+    }
+
+
+
 
     .our-services h1,
     .service-dec h1 {
@@ -1608,6 +1738,7 @@ footer {
 
 }
 
+/* =====================================================contact us page respomsive css=========================== */
 
 
 @media (max-width: 400px) {
@@ -1619,6 +1750,12 @@ footer {
     header .logo-1 {
         margin-left: 0;
     }
+
+    .our-service-container {
+        width: auto;
+    }
+
+
 
     .h-nav-resp {
         height: 30px;
@@ -1641,21 +1778,31 @@ footer {
 
 
 
-    /* 
+
     .service-dec {
         width: 100%;
+        padding: 33px;
     }
- */
+
 
     .our-services-dec {
         display: flex;
         justify-content: center;
+        margin-bottom: 50px;
+
     }
 
     .testi-container {
         gap: 2px;
         padding: 55px 0px;
     }
+
+
+    .testi-container .first-11111 {
+
+        height: 25px;
+    }
+
 
     .testi-container,
     .re-img {
@@ -1664,8 +1811,13 @@ footer {
 
     .testi-container p {
         line-height: 15px;
-        font-size: 10px;
+        font-size: 12px;
 
+    }
+
+    .our-services h1,
+    .service-dec h1 {
+        font-size: 25px !important;
     }
 
     .address-container {
@@ -1686,6 +1838,22 @@ footer {
         font-size: 10px !important;
     }
 
+
+
+    .form-container-1 {
+        width: auto;
+        padding: 50px;
+    }
+
+
+    .testi {
+        margin-bottom: 45px;
+    }
+
+
+
+
+
     .testi-dec h3 {
         font-size: 9px;
 
@@ -1695,6 +1863,26 @@ footer {
         top: -17px;
         font-size: 9px;
     }
+
+
+
+    .footer-column input[type="email"] {
+        width: auto;
+    }
+
+    .footer-column button {
+        width: auto;
+    }
+
+    .email-link {
+        gap: 0;
+    }
+
+    .footer-column a {
+        font-size: 16px;
+    }
+
+
 
 
     .section-hero-right {
@@ -1723,6 +1911,19 @@ footer {
 
     }
 
+
+
+
+    .our-service-main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+
+
+    /* 
     .our-service-main-container {
         gap: 0.5rem;
     }
@@ -1743,38 +1944,102 @@ footer {
     .service-dec h1 {
         font-size: 40px;
         padding-bottom: 2px;
-    }
+    } */
 
     .section-hero2 h1 {
         font-size: 17px;
         line-height: 24px;
     }
 
+
+
+
     .view-more h2 {
         font-size: 12px;
     }
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media (max-width: 1100px){
-    .marquee-containt {
-        max-width: fit-content;
+    .head-text {
+        padding: 0;
     }
 
-} */
+    .marquee-content .social-icons {
+        display: none !important;
+    }
+
+    .head-text h1 {
+        font-size: 37px;
+        padding: 0;
+    }
+
+    .container-11 {
+        padding-top: 0;
+        margin-top: 2rem;
+    }
+
+    .container-99 {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: 0;
+        /* max-width: 100%; */
+        /* border-radius: 32px 0px 0px 32px; */
+        padding-bottom: 2rem;
+        /* width: 370px; */
+        flex-wrap: wrap;
+    }
+
+    .left-side h2 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    .left-side p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .right-side {
+        border-radius: 0 0 32px 32px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-side .maps {
+        width: 80%;
+    }
+
+    iframe#gmap_canvas {
+        border-radius: 0 0 32px 32px;
+    }
+
+    .Service-hero-right h1 {
+
+        font-size: 34px;
+    }
+
+    .Service-hero {
+height: 100vh;
+
+}
+
+.ServiceLable a {
+    font-size: 8.5px;
+}
+.ServiceLable{
+    padding: 0;
+}
+.service-left h1 {
+    font-size: 37px;
+    line-height: 36px;
+}
+.service-left{
+    padding: 5.5rem;
+}
+.service-right {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+}
+/* =====================================================contact us page respomsive css=========================== */
