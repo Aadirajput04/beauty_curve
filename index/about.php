@@ -42,7 +42,7 @@ $currentPage = 'about';
 
                 </div>
                 <div class="main-113-right">
-                    <h1>Dr. Megha Shah</h1>
+                    <h1 class="sign-10" >Dr. Megha Shah</h1>
                     <h3>M.S., MMSC(US), F.A.S.C.S(US)</h3>
                     <h5>Laser Cosmetologist & Lipologist</h5>
                     <p>Charette Cosmetics has your skincare needs covered head to toe. We strongly believe in the

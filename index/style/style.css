@@ -2066,14 +2066,14 @@ height: 100vh;
 
 .main-ab h1 {
     font-size: 17px;
-    line-height: 35px;
+    line-height: 25px;
 
 }
 
 
 .main-ab p {
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 15px;
+    line-height: 18px;
 }
 
 .main-113{
@@ -2081,6 +2081,11 @@ height: 100vh;
 }
 .main-115{
     padding: 0;
+    margin-top: -40px;
+}
+.main-113-right .sign-10{
+    font-size: 35px;
+    line-height: 50px;
 }
 
 .main-111{
@@ -2101,6 +2106,16 @@ height: 100vh;
 .main-box{
     margin: 14rem auto;
 }
+
+
+
+
+.main-113-right {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 85%;
+}
+
 
 }
 /* =====================================================contact us page respomsive css=========================== */
